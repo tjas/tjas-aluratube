@@ -1,0 +1,263 @@
+{
+    "user": {
+        "name": "Thiago Jorge Almeida dos Santos",
+        "job": "Technology Analyst",
+        "email": "thiago.tjas@gmail.com",
+        "local": "Brasília, Federal District, Brazil",
+        "username": "thiago.tjas",
+        "social": {
+            "linkedin": "thiago-tjas",
+            "instagram": "thiago.tjas",
+            "github": "tjas"
+        },
+        "banner": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+        "banner-ref": "https://unsplash.com/photos/HDd-NQ_AMNQ"
+    },
+    "playlists": {
+        "jogos": [
+            {
+                "title": "Frostpunk - Neve e Steak tartare",
+                "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
+                "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+            },
+            {
+                "title": "Frostpunk - Neve e Steak tartare",
+                "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
+                "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+            },
+            {
+                "title": "Gas Station Simulator - 8 dias sem dormir!",
+                "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
+                "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+            },
+            {
+                "title": "Gartic Phone - Não assista a esse NerdPlayer!",
+                "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
+                "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+            },
+            {
+                "title": "Netdecking Estraga o Magic?",
+                "url": "https://www.youtube.com/watch?v=dXihyhYEsEc",
+                "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
+            },
+            {
+                "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
+                "url": "https://www.youtube.com/watch?v=zybKHMgLCWU",
+                "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
+            },
+            {
+                "title": "We Were Here Together - Os Enigmas deste Mundo",
+                "url": "https://www.youtube.com/watch?v=UKgQsrHUG40",
+                "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
+            },
+            {
+                "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
+                "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
+                "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+            }
+        ],
+        "front-end": [
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
+                "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+            },
+            {
+                "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
+                "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
+                "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+            },
+            {
+                "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+                "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+                "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+            },
+            {
+                "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
+                "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
+                "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+            },
+            {
+                "title": "Como Foi Programado um App Que Faz Mágica",
+                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
+                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+            },
+            {
+                "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+                "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+                "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+            },
+            {
+                "title": "5 Erros Históricos do CSS",
+                "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
+                "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+            },
+            {
+                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+            }
+        ],
+        "back-end": [
+            {
+                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+                "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+                "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+            },
+            {
+                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+                "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+                "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+            },
+            {
+                "title": "O que é o Java? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+                "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+            },
+            {
+                "title": "O que é Machine Learning? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+                "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+            },
+            {
+                "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+                "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+            },
+            {
+                "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+                "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+            },
+            {
+                "title": "O que é o C#? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+                "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+            }
+        ]
+    },
+    "favorites": {
+        "0": {
+            "name": "Alura Cursos Online",
+            "url": "https://www.youtube.com/c/Alura",
+            "thumb": "https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "1": {
+            "name": "Mario Souto - Dev Soutinho",
+            "url": "https://www.youtube.com/c/DevSoutinho",
+            "thumb": "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "2": {
+            "name": "Full Cycle",
+            "url": "https://www.youtube.com/c/FullCycle",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_rLbwWXYiOXBuI3DWLc87Js3AYKJKXM8pxWsre=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "3": {
+            "name": "Código Fonte TV",
+            "url": "https://www.youtube.com/c/codigofontetv",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu8lUVeJ1TiYevFOzZPNQFEQSDHc-TwiYKMcQpxpvA=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "4": {
+            "name": "Loiane Groner",
+            "url": "https://www.youtube.com/c/loianegroner",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_rVZTkA-_ywLx9cZklf7nyxhkaOwd99oGB-DDtRr0=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "5": {
+            "name": "Filipe Deschamps",
+            "url": "https://www.youtube.com/c/FilipeDeschamps",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu9fwc9E-G17B2vMnbYzZBp_NYs4AmCE802y8x08=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "6": {
+            "name": "Ei Nerd",
+            "url": "https://www.youtube.com/c/einerdtv",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu8CJ8UIbf6gdU8oUeDIHi5QtBFsvviAzPuZDtJwTA=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "7": {
+            "name": "Tolkien Brasil",
+            "url": "https://www.youtube.com/c/tolkienbrasil",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu-LjVogcqRV7y5pWw5Lx0mdDzG9LW1d23Em9Q35=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "8": {
+            "name": "Star Wars Brasil",
+            "url": "https://www.youtube.com/c/StarWarsBRA",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu-rwQgJMOUt-YFpvWNmDgvqmGcToaE8d-_x17V_Nw=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "9": {
+            "name": "EA SPORTS FIFA",
+            "url": "https://www.youtube.com/c/easportsfifa",
+            "thumb": "https://yt3.ggpht.com/8w7iP2V5IOvIssQ4VI9ljbzvCfyUJVDjE16qvAzxeqdKhs8HqW7AyZrhZVXUBJhC-fjQ_nD-DVg=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "10": {
+            "name": "Google para seu Negócio",
+            "url": "https://www.youtube.com/c/GoogleParaSeuNegocio",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu9tYZfjsJ4Dtg9C_UW2ZQOqOtVnmGB-4n9ksfRTSQ=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "11": {
+            "name": "Gabriel Pato",
+            "url": "https://www.youtube.com/c/GabrielPato",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu9yQ4y4UEEaiMrKg5EQQxzMB317KNu_t4lTGs35gg=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "12": {
+            "name": "Canaltech",
+            "url": "https://www.youtube.com/c/CanalTech",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_B2N15Iv2b8IYDYcrjkXScMam9LGnVyfadI_Fu1ok=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "13": {
+            "name": "FLA TV",
+            "url": "https://www.youtube.com/c/flamengo",
+            "thumb": "https://yt3.ggpht.com/abA8fVEPC8-dhqO7N5fQri9h6x7tvxa1qhrsY2TSKBsHkKsAYBIZFHHxHawAzqd_IWzc4vCt=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "14": {
+            "name": "Ingresso.com",
+            "url": "https://www.youtube.com/c/Ingressocom",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu80uZ61KGg1oI5pUUmXVsQlnpPf28OGFAOvHGkrnw=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "15": {
+            "name": "TNT Sports Brasil",
+            "url": "https://www.youtube.com/c/esporteinterativo",
+            "thumb": "https://yt3.ggpht.com/NrAJ-hx5r0fLD5ZezP5Kyr5VbgEsuVsDMZvhjH-h17Z26XfVWGAR9T_ISKQIHHwnZ42b8sm8FQ=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "16": {
+            "name": "ESPN Brasil",
+            "url": "https://www.youtube.com/c/espnbrasil",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_8cdKixZObfS3WQYnxnJgI9n4Raw5rFGhV93Be7qM=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "17": {
+            "name": "Caique Izoton",
+            "url": "https://www.youtube.com/c/CaiqueIzoton",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu-jE20bz6mv-Tn4hdCqyTrCGLAQ3DitEJYQGQv0=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        },
+        "18": {
+            "name": "Let's Data",
+            "url": "https://www.youtube.com/c/LetsDataAI",
+            "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_o4KVdQlngWfKo_WA46n0AkXQ3ZxVcfQYpyi89=s88-c-k-c0x00ffffff-no-rj",
+            "social": "youtube"
+        }
+    },
+    "environment": "development",
+    "version": "0.1.0",
+    "build": "20221109"
+}
