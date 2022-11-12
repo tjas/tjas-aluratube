@@ -1,42 +1,10 @@
 # TJAS AluraTube
 
-<div class="language">
-    <!-- <style>
-        .options {
-            display: flex;
-            align-items: center;
-            flex-flow: row-reverse;
-            text-align: center;
-            gap: 16px;
-            color: #555555;
-        }
-        .option {
-            color: inherit;
-            width: 50px;
-            padding: 8px;
-            border: 1px solid rgba(255, 255, 255, 0);
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            opacity: 1;
-            transition: .3s;
-        }
-        .option:hover,
-        .option:focus {
-            opacity: .5;
-            border: 1px solid #cccccc;
-            color: inherit;
-            text-decoration: none;
-        }
-        .option.active {
-            border: 1px solid #cccccc;
-        }
-    </style> -->
-    <div class="options" align="right" style="display: flex; align-items: center; flex-flow: row-reverse; text-align: center; gap: 28px; color: #555555;">
-        <a class="option" href="./README.md">🇧🇷 PT</a>
-        <div class="option active" style="font-weight: bold;">🇺🇸 EN</div>
-    </div>
-</div>
+> 🇺🇸 English ⁘ 🇧🇷 [Portuguese](./README_pt-br.md)
+
+> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
+
+> ⭐ Mark the project with a star
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE.md)
@@ -45,10 +13,6 @@
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
 
-> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
-
-> ⭐ Mark the project with a star
-
 <br />
 
 This project is an adaptation and evolution of the **[AluraTube](https://github.com/alura-challenges/aluratube)** project, proposed at [Alura](https://www.alura.com.br/)'s 5th React Immersion, that occured in november 2022. It initially intended to spread basic knowledgements about [ReactJS](https://reactjs.org/) technology, but became an opportunity do practice and evolve personal skills in such technology and other related ones.
@@ -56,58 +20,6 @@ This project is an adaptation and evolution of the **[AluraTube](https://github.
 The **React** is a [JavaScript](https://www.javascript.com/) library created by Facebook for building modern user interfaces, known as front-end applications, which are connected to back-end applications, that serves content and manage negocial rules in complex systems. The React runs over the [NodeJS](https://nodejs.org/en/), an open-source, cross-platform JavaScript runtime environment, and is potencialyzed by other libraries and frameworks, mainly the [NextJS](https://nextjs.org/), a very popular framework, wich is even used in this project.
 
 The **AluraTube** is a video platform inspired by [YouTube](https://www.youtube.com/). Alura and AluraTube are trademarks of _AOVS Sistemas de Informática S.A._, all rights reserved. YouTube is a trademark of _Google LLC_, all rights reserved.
-
-<br />
-
-<div align="center" style="display: flex; align-items: center; justify-content: center; width: 100%;">
-    <!-- Adapted from Yoren Chang's work in https://codepen.io/yoren/pen/Ozboeq -->
-    <style>
-        .item {
-            margin: 0 auto;
-            padding: 1em;
-            position: relative;
-            width: 900px;
-            overflow: hidden;
-        }
-        .item .img-wrap:before {
-            content: '';
-            background-image: linear-gradient(to top, rgba(255,255,255,255), rgba(239,239,239,0));
-            position: absolute;
-            height: 100px;
-            right: 0;
-            bottom: 0;
-            left: 0;
-        }
-        .item .img-wrap:after {
-            content: '';
-            display: block;
-            height: -9999px;
-        }
-        .img-wrap img {
-            width: auto;
-            height: auto;
-            max-width: 100%;
-            vertical-align: middle;
-            border: 0;
-            margin: 0 auto -135% auto;
-            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
-            -ms-interpolation-mode: bicubic;
-        }
-    </style>
-    <div class="item">
-        <div class="crop img-wrap">
-            <img alt="Project Header" src="./screenshots/webpage.png" />
-        </div>
-    </div>
-</div>
-
-<br />
-
-## Main Resources
-
-- (Static) Home Page;
-- (Static) Timeline;
-- (Static) Favorites;
 
 ## Getting Started
 
@@ -132,7 +44,7 @@ npm run dev
 
 ## Contributing
 
-> Obtained and adapted from the "Contributing" section of Mario Souto's [Flappy Bird: Dev Soutinho](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md) project.
+> Adapted from the [Flappy Bird: Dev Soutinho](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md) project.
 
 1. Fork it!
 2. Create your feature branch:
@@ -153,17 +65,19 @@ git push origin my-new-feature
 ```
 6. Submit a pull request
 
-> Add a title and description that let clear your suggestion.
+- Add a title and description that let clear your suggestion.
 
-> After your pull request is merged, you can safely delete your branch.
+- After your pull request is merged, you can safely delete your branch.
 
 ## Todo List
 
-- To obtain a list of videos dinamically from [Google API](https://www.npmjs.com/package/googleapis);
-- To implement fade efect in horizontal scrolls extremities, similar to this Pavon Vora's work: [Horizontal Scroll Fade](https://codepen.io/pawanvora/pen/MXVNgj);
-- To implement user profile informations edition;
-- To persist informations in local data base;
-- To implement multi language translation.
+- [ ] Obtain a list of videos dinamically from [Google API](https://www.npmjs.com/package/googleapis);
+- [ ] Add fade efect in horizontal scrolls extremities;
+- [ ] Edit user profile informations;
+- [ ] Persist informations in local data base;
+- [ ] Translate to other languages;
+- [ ] Create login page;
+- [ ] Separate public and private pages.
 
 ## References
 
@@ -181,8 +95,7 @@ git push origin my-new-feature
 
 ## Contact
 
-- **Thiago Jorge Almeida dos Santos**, project author and maintainer
-    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas), [GitHub](https://github.com/tjas)
+- **Thiago Jorge Almeida dos Santos**, project author and maintainer ⁘ [LinkedIn](https://www.linkedin.com/in/thiago-tjas) ⁘ [GitHub](https://github.com/tjas)
 
 ## Licence
 
@@ -190,9 +103,6 @@ git push origin my-new-feature
 
 ## Acknowledgements
 
-- **Mario Souto**, Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion
-    - [LinkedIn](https://www.linkedin.com/in/omariosouto/), [YouTube](https://www.youtube.com/c/DevSoutinho), [GitHub](https://github.com/omariosouto), [Instagram](https://www.instagram.com/devsoutinho/)
-- **Nayanne Lopes**, Instructor at Alura, for contributing at React Immersion comparing React to Angular
-    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/), [Instagram](https://www.instagram.com/nayanne.tech/)
-- **Paulo Silveira**, Co-founder and CEO of Alura, for idealizing and creating the React Immersion
-    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/), [Instagram](https://www.instagram.com/paulo_hipster/)
+- **Mario Souto**, Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [Instagram](https://www.instagram.com/devsoutinho/)
+- **Nayanne Lopes**, Instructor at Alura, for contributing at React Immersion comparing React to Angular ⁘ [LinkedIn](https://www.linkedin.com/in/nayannebatista/) ⁘ [Instagram](https://www.instagram.com/nayanne.tech/)
+- **Paulo Silveira**, Co-founder and CEO of Alura, for idealizing and creating the React Immersion ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/)
