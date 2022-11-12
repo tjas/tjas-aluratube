@@ -1,9 +1,40 @@
 # TJAS AluraTube
 
 <div class="language">
-    <div class="options" align="right" style="display: flex; align-items: center; flex-flow: row-reverse; text-align: center; gap: 16px; color: #555555;">
-        <a class="option" href="./README.md" style="color: inherit; width: 50px; padding: 8px; border: 1px solid rgba(255, 255, 255, 0); border-radius: 5px; cursor: pointer; text-decoration: none; opacity: 1; transition: .3s;">🇧🇷 PT</a>
-        <div class="option active" style="border: 1px solid #cccccc; color: inherit; width: 50px; padding: 8px; border-radius: 5px; cursor: pointer; text-decoration: none; opacity: 1; transition: .3s;">🇺🇸 EN</div>
+    <!-- <style>
+        .options {
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse;
+            text-align: center;
+            gap: 16px;
+            color: #555555;
+        }
+        .option {
+            color: inherit;
+            width: 50px;
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0);
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            opacity: 1;
+            transition: .3s;
+        }
+        .option:hover,
+        .option:focus {
+            opacity: .5;
+            border: 1px solid #cccccc;
+            color: inherit;
+            text-decoration: none;
+        }
+        .option.active {
+            border: 1px solid #cccccc;
+        }
+    </style> -->
+    <div class="options" align="right" style="display: flex; align-items: center; flex-flow: row-reverse; text-align: center; gap: 28px; color: #555555;">
+        <a class="option" href="./README.md">🇧🇷 PT</a>
+        <div class="option active" style="font-weight: bold;">🇺🇸 EN</div>
     </div>
 </div>
 
