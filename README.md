@@ -1,13 +1,12 @@
 # TJAS AluraTube
 
-> 🇺🇸 English ⁘ 🇧🇷 [Portuguese](./README_pt-br.md)
-
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE.md)
-
 [![Node](https://img.shields.io/badge/node-v18.12.1-green)](https://nodejs.org/en/)
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
+
+> 🇺🇸 English ⁘ 🇧🇷 [Portuguese](./README_pt-br.md)
 
 > ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
 
