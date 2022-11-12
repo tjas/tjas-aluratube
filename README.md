@@ -2,10 +2,6 @@
 
 > 🇺🇸 English ⁘ 🇧🇷 [Portuguese](./README_pt-br.md)
 
-> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
-
-> ⭐ Mark the project with a star
-
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE.md)
 
@@ -13,7 +9,9 @@
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
 
-<br />
+> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
+
+> ⭐ Mark the project with a star
 
 This project is an adaptation and evolution of the **[AluraTube](https://github.com/alura-challenges/aluratube)** project, proposed at [Alura](https://www.alura.com.br/)'s 5th React Immersion, that occured in november 2022. It initially intended to spread basic knowledgements about [ReactJS](https://reactjs.org/) technology, but became an opportunity do practice and evolve personal skills in such technology and other related ones.
 
