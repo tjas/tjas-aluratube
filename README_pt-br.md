@@ -60,40 +60,6 @@ O **AluraTube** é uma plataforma de vídeos inspirada no [YouTube](https://www.
 <br />
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; width: 100%;">
-    <!-- Adapted from Yoren Chang's work in https://codepen.io/yoren/pen/Ozboeq -->
-    <style>
-        .item {
-            margin: 0 auto;
-            padding: 1em;
-            position: relative;
-            width: 900px;
-            overflow: hidden;
-        }
-        .item .img-wrap:before {
-            content: '';
-            background-image: linear-gradient(to top, rgba(255,255,255,255), rgba(239,239,239,0));
-            position: absolute;
-            height: 100px;
-            right: 0;
-            bottom: 0;
-            left: 0;
-        }
-        .item .img-wrap:after {
-            content: '';
-            display: block;
-            height: -9999px;
-        }
-        .img-wrap img {
-            width: auto;
-            height: auto;
-            max-width: 100%;
-            vertical-align: middle;
-            border: 0;
-            margin: 0 auto -135% auto;
-            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
-            -ms-interpolation-mode: bicubic;
-        }
-    </style>
     <div class="item">
         <div class="crop img-wrap">
             <img alt="Project Header" src="./screenshots/webpage.png" />
@@ -182,7 +148,7 @@ git push origin my-new-feature
 ## Contato
 
 - **Thiago Jorge Almeida dos Santos**, autor e mantenedor do projeto
-    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas) | [GitHub](https://github.com/tjas) .
+    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas), [GitHub](https://github.com/tjas)
 ## Licença
 
 - Distribuído sob a [Licença MIT](./LICENSE.md).
@@ -190,8 +156,8 @@ git push origin my-new-feature
 ## Agradecimentos
 
 - **Mario Souto**, Instrutor da Imersão React da Alura, por compartilhar o seu conhecimento na Imersão React
-    - [LinkedIn](https://www.linkedin.com/in/omariosouto/) | [YouTube](https://www.youtube.com/c/DevSoutinho) | [GitHub](https://github.com/omariosouto) | [Instagram](https://www.instagram.com/devsoutinho/)
+    - [LinkedIn](https://www.linkedin.com/in/omariosouto/), [YouTube](https://www.youtube.com/c/DevSoutinho), [GitHub](https://github.com/omariosouto), [Instagram](https://www.instagram.com/devsoutinho/)
 - **Nayanne Lopes**, Instrutora na Alura, por contribuir na Imersão React com as comparações entre React e Angular
-    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/) | [Instagram](https://www.instagram.com/nayanne.tech/)
+    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/), [Instagram](https://www.instagram.com/nayanne.tech/)
 - **Paulo Silveira**, Co-fundador e CEO da Alura, por idealizar e conduzir a Imersão React
-    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/) | [Instagram](https://www.instagram.com/paulo_hipster/)
+    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/), [Instagram](https://www.instagram.com/paulo_hipster/)

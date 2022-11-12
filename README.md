@@ -1,40 +1,9 @@
 # TJAS AluraTube
 
 <div class="language">
-    <style>
-        .options {
-            display: flex;
-            align-items: center;
-            flex-flow: row-reverse;
-            text-align: center;
-            gap: 16px;
-            color: #555555;
-        }
-        .option {
-            color: inherit;
-            width: 50px;
-            padding: 8px;
-            border: 1px solid rgba(255, 255, 255, 0);
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            opacity: 1;
-            transition: .3s;
-        }
-        .option:hover,
-        .option:focus {
-            opacity: .5;
-            border: 1px solid #cccccc;
-            color: inherit;
-            text-decoration: none;
-        }
-        .option.active {
-            border: 1px solid #cccccc;
-        }
-    </style>
-    <div class="options" align="right">
-        <a class="option" href="./README.md">🇧🇷 PT</a>
-        <div class="option active">🇺🇸 EN</div>
+    <div class="options" align="right" style="display: flex; align-items: center; flex-flow: row-reverse; text-align: center; gap: 16px; color: #555555;">
+        <a class="option" href="./README.md" style="color: inherit; width: 50px; padding: 8px; border: 1px solid rgba(255, 255, 255, 0); border-radius: 5px; cursor: pointer; text-decoration: none; opacity: 1; transition: .3s;">🇧🇷 PT</a>
+        <div class="option active" style="border: 1px solid #cccccc; color: inherit; width: 50px; padding: 8px; border-radius: 5px; cursor: pointer; text-decoration: none; opacity: 1; transition: .3s;">🇺🇸 EN</div>
     </div>
 </div>
 
@@ -182,7 +151,7 @@ git push origin my-new-feature
 ## Contact
 
 - **Thiago Jorge Almeida dos Santos**, project author and maintainer
-    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas) - [GitHub](https://github.com/tjas) .
+    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas), [GitHub](https://github.com/tjas)
 
 ## Licence
 
@@ -191,8 +160,8 @@ git push origin my-new-feature
 ## Acknowledgements
 
 - **Mario Souto**, Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion
-    - [LinkedIn](https://www.linkedin.com/in/omariosouto/) | [YouTube](https://www.youtube.com/c/DevSoutinho) | [GitHub](https://github.com/omariosouto) | [Instagram](https://www.instagram.com/devsoutinho/)
+    - [LinkedIn](https://www.linkedin.com/in/omariosouto/), [YouTube](https://www.youtube.com/c/DevSoutinho), [GitHub](https://github.com/omariosouto), [Instagram](https://www.instagram.com/devsoutinho/)
 - **Nayanne Lopes**, Instructor at Alura, for contributing at React Immersion comparing React to Angular
-    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/) | [Instagram](https://www.instagram.com/nayanne.tech/)
+    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/), [Instagram](https://www.instagram.com/nayanne.tech/)
 - **Paulo Silveira**, Co-founder and CEO of Alura, for idealizing and creating the React Immersion
-    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/) | [Instagram](https://www.instagram.com/paulo_hipster/)
+    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/), [Instagram](https://www.instagram.com/paulo_hipster/)
