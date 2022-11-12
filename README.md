@@ -1,7 +1,7 @@
 # TJAS AluraTube
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
-[![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE.md)
+[![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=blue)](./LICENSE.md)
 [![Node](https://img.shields.io/badge/node-v18.12.1-green)](https://nodejs.org/en/)
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
@@ -60,16 +60,18 @@ git commit -m "Add some feature"
 ```
 git push origin my-new-feature
 ```
-6. Submit a pull request
+6. Submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
-- Add a title and description that let clear your suggestion.
-
-- After your pull request is merged, you can safely delete your branch.
+    - Add a title and description that let clear your suggestion.
+    - After your pull request is merged, you can safely delete your branch.
 
 ## Todo List
 
 - [ ] Obtain a list of videos dinamically from [Google API](https://www.npmjs.com/package/googleapis);
 - [ ] Add fade efect in horizontal scrolls extremities;
+- [ ] Create, edit and remove playlists;
+- [ ] Add and remove videos;
+- [ ] Add and remove favorites;
 - [ ] Edit user profile informations;
 - [ ] Persist informations in local data base;
 - [ ] Translate to other languages;
@@ -92,7 +94,9 @@ git push origin my-new-feature
 
 ## Contact
 
-- **Thiago Jorge Almeida dos Santos**, project author and maintainer ⁘ [LinkedIn](https://www.linkedin.com/in/thiago-tjas) ⁘ [GitHub](https://github.com/tjas)
+- **Thiago Jorge Almeida dos Santos** ⁘ [LinkedIn](https://www.linkedin.com/in/thiago-tjas) ⁘ [GitHub](https://github.com/tjas)
+
+    project author and maintainer.
 
 ## Licence
 
@@ -100,6 +104,14 @@ git push origin my-new-feature
 
 ## Acknowledgements
 
-- **Mario Souto**, Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [Instagram](https://www.instagram.com/devsoutinho/)
-- **Nayanne Lopes**, Instructor at Alura, for contributing at React Immersion comparing React to Angular ⁘ [LinkedIn](https://www.linkedin.com/in/nayannebatista/) ⁘ [Instagram](https://www.instagram.com/nayanne.tech/)
-- **Paulo Silveira**, Co-founder and CEO of Alura, for idealizing and creating the React Immersion ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/)
+- **Mario Souto** ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [Instagram](https://www.instagram.com/devsoutinho/)
+
+    Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion.
+
+- **Nayanne Lopes** ⁘ [LinkedIn](https://www.linkedin.com/in/nayannebatista/) ⁘ [Instagram](https://www.instagram.com/nayanne.tech/)
+
+    Instructor at Alura, for contributing at React Immersion comparing React to Angular.
+
+- **Paulo Silveira** ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/)
+
+    Co-founder and CEO of Alura, for idealizing and creating the React Immersion.
