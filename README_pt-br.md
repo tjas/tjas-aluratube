@@ -1,4 +1,42 @@
-# TJAS AluraTube (pt-br 🇧🇷)
+# TJAS AluraTube
+
+<div class="language">
+    <style>
+        .options {
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse;
+            text-align: center;
+            gap: 16px;
+            color: #555555;
+        }
+        .option {
+            color: inherit;
+            width: 50px;
+            padding: 8px;
+            border: 1px solid rgba(255, 255, 255, 0);
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            opacity: 1;
+            transition: .3s;
+        }
+        .option:hover,
+        .option:focus {
+            opacity: .5;
+            border: 1px solid #cccccc;
+            color: inherit;
+            text-decoration: none;
+        }
+        .option.active {
+            border: 1px solid #cccccc;
+        }
+    </style>
+    <div class="options" align="right">
+        <div class="option active">🇧🇷 PT</div>
+        <a class="option" href="./README.md">🇺🇸 EN</a>
+    </div>
+</div>
 
 [![Status](https://img.shields.io/badge/status-ativo-brightgreen.svg)](./README_pt-br.md)
 [![Licence MIT](https://img.shields.io/badge/licença-MIT-blue.svg)](./LICENSE.md)
@@ -7,15 +45,13 @@
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://pt-br.reactjs.org/)
 
-> 🇺🇸 [Read in English](./README.md)
-
-> ⚙️ Acesse a demo \[EM BREVE\]
+> ⚙️ [Acesse a demo e veja o projeto funcionando](https://tjas-aluratube.vercel.app/)
 
 > ⭐ Marque o projeto com uma estrela
 
 <br />
 
-Este projeto é uma adaptação e evolução do projeto **[AluraTube](https://github.com/alura-challenges/aluratube)**, proposto no 5ª **Imersão React** da [Alura](https://www.alura.com.br/), que ocorreu em novembro de 2022. Inicialmente ele tinha como objetivo divulgar conhecimentos básicos sobre a tecnologia [React.JS](https://pt-br.reactjs.org/), mas tornou-se uma oportunidade de praticar e desenvolver habilidades pessoais nessa tecnologia e em outras relacionadas.
+Este projeto é uma adaptação e evolução do projeto **[AluraTube](https://github.com/alura-challenges/aluratube)**, proposto no 5ª Imersão React da [Alura](https://www.alura.com.br/), que ocorreu em novembro de 2022. Inicialmente ele tinha como objetivo divulgar conhecimentos básicos sobre a tecnologia [React.JS](https://pt-br.reactjs.org/), mas tornou-se uma oportunidade de praticar e desenvolver habilidades pessoais nessa tecnologia e em outras relacionadas.
 
 O **React** é uma biblioteca [JavaScript](https://www.javascript.com/) criada pelo Facebook para construir interfaaces de usuário modernas, conhecidas como aplicações _front-end_, as quais são conectadas a aplicações _back-end_, que servem conteúdo e gerenciam regras negociais em sistemas complexos. O React roda sobre o [Node.JS](https://nodejs.org/pt-br/), um ambiente de execução JavaScript multi plataforma de código aberto, e é potencializado por outras bibliotecas e _frameworks_, principalmente o [Next.JS](https://nextjs.org/), um _framework_ muito popular, que também é utilizado neste projeto.
 
@@ -23,21 +59,55 @@ O **AluraTube** é uma plataforma de vídeos inspirada no [YouTube](https://www.
 
 <br />
 
-<p align="center">
-  <img alt="Project Header" src="./screenshots/header.png" />
-  <img alt="Project Header" src="./screenshots/footer.png" />
-</p>
+<div align="center" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+    <!-- Adapted from Yoren Chang's work in https://codepen.io/yoren/pen/Ozboeq -->
+    <style>
+        .item {
+            margin: 0 auto;
+            padding: 1em;
+            position: relative;
+            width: 900px;
+            overflow: hidden;
+        }
+        .item .img-wrap:before {
+            content: '';
+            background-image: linear-gradient(to top, rgba(255,255,255,255), rgba(239,239,239,0));
+            position: absolute;
+            height: 100px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .item .img-wrap:after {
+            content: '';
+            display: block;
+            height: -9999px;
+        }
+        .img-wrap img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+            border: 0;
+            margin: 0 auto -135% auto;
+            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+            -ms-interpolation-mode: bicubic;
+        }
+    </style>
+    <div class="item">
+        <div class="crop img-wrap">
+            <img alt="Project Header" src="./screenshots/webpage.png" />
+        </div>
+    </div>
+</div>
 
 <br />
 
-## Desenvolvido Com
+## Principais Recursos
 
-- Node.JS 18.12.1 + npm 8.19.2
-- Next.JS 13.0.2
-- React.JS 18.2.0
-- React DOM 18.2.0
-- React Icons 4.6.0
-- Styled Components 5.3.6
+- Página Inicial (Estática);
+- Timeline (Estática);
+- Favoritos (Estática);
 
 ## Utilização
 
@@ -46,41 +116,51 @@ Este é um exemplo de como você pode configurar o projeto localmente no seu com
 1. Certifique-se de que você tem o Node.JS 18.12.1+ com o npm 8.19.2+ instalado ou verifique como fazê-lo em [NodeJS.org](https://nodejs.org/pt-br/download/);
 2. Certifique-se de que você tem o Git instalado ou verifique como fazê-lo em [Git-scm.com](https://git-scm.com/);
 3. Acesse a pasta na qual você deseja salvar o projeto, então, clone o repositório nesta pasta
-    ```sh
-    git clone https://github.com/tjas/tjas-aluratube
-    ```
+```sh
+git clone https://github.com/tjas/tjas-aluratube
+```
 4. Acesse a pasta do projeto;
 5. Instale as dependências do projeto (obtidas, por padrão, do arquivo `package.json`)
-    ```sh
-    npm install
-    ```
+```sh
+npm install
+```
 6. Execute a aplicação
-    ```sh
-    npm run dev
-    ```
+```sh
+npm run dev
+```
 7. Finalmente, acesse a aplicação no endereço http://localhost:3000
 
 ## Contribuição
 
 > Obtido e adaptado da seção "Contribuindo" do projeto [Flappy Bird: Dev Soutinho](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md) do Mario Souto.
 
-Quer contribuir com o projeto?
-
 1. Crie um fork!
-2. Crie sua feature branch: `git checkout -b my-new-feature`
-3. Adicione os arquivos modificados:  `git add .`
-4. Faça um Commit com suas alterações: `git commit -m "Add some feature"`
-5. Faça um push da sua branch: `git push origin my-new-feature`
+2. Crie sua feature branch:
+```
+git checkout -b my-new-feature
+```
+3. Adicione os arquivos modificados:
+```
+git add .
+```
+4. Faça um Commit com suas alterações:
+```
+git commit -m "Add some feature"
+```
+5. Faça um push da sua branch:
+```
+git push origin my-new-feature
+```
 6. Envie um Pull Request para esse repositório
 
-- Adicione um título e uma descrição que deixe claro sua sugestão :-)
+> Adicione um título e uma descrição que deixe claro sua sugestão.
 
 > Depois que seu pull request for mergeado, você pode apagar sua branch.
 
 ## Lista de tarefas a serem realizadas
 
 - Implementar a obtenção uma lista de vídeos dinamicamente por meio da [Google API](https://www.npmjs.com/package/googleapis);
-- Implementar o efeito de _fade_ nas extremidades dos _scrolls_ horizontais;
+- Implementar o efeito de _fade_ nas extremidades dos _scrolls_ horizontais, semelhante a este trabalho de Pavon Vora: [Horizontal Scroll Fade](https://codepen.io/pawanvora/pen/MXVNgj);
 - Implementar a edição das informações de usuário;
 - Persistir informações em base de dados local;
 - Implementar tradução em outros idiomas.
@@ -101,14 +181,17 @@ Quer contribuir com o projeto?
 
 ## Contato
 
-- **Thiago Jorge Almeida dos Santos** | [LinkedIn](https://www.linkedin.com/in/thiago-tjas) | [GitHub](https://github.com/tjas) .
-
+- **Thiago Jorge Almeida dos Santos**, autor e mantenedor do projeto
+    - [LinkedIn](https://www.linkedin.com/in/thiago-tjas) | [GitHub](https://github.com/tjas) .
 ## Licença
 
 - Distribuído sob a [Licença MIT](./LICENSE.md).
 
 ## Agradecimentos
 
-- **Mario Souto**, Instrutor da Imersão React da Alura, por compartilhar o seu conhecimento na Imersão React | [LinkedIn](https://www.linkedin.com/in/omariosouto/) | [YouTube](https://www.youtube.com/c/DevSoutinho) | [GitHub](https://github.com/omariosouto) | [Instagram](https://www.instagram.com/devsoutinho/) .
-- **Nayanne Lopes**, Instrutora na Alura, por contribuir na Imersão React com as comparações entre React e Angular | [LinkedIn](https://www.linkedin.com/in/nayannebatista/) | [Instagram](https://www.instagram.com/nayanne.tech/) .
-- **Paulo Silveira**, Co-fundador e CEO da Alura, por idealizar e conduzir a Imersão React | [LinkedIn](https://www.linkedin.com/in/paulosilveira/) | [Instagram](https://www.instagram.com/paulo_hipster/) .
+- **Mario Souto**, Instrutor da Imersão React da Alura, por compartilhar o seu conhecimento na Imersão React
+    - [LinkedIn](https://www.linkedin.com/in/omariosouto/) | [YouTube](https://www.youtube.com/c/DevSoutinho) | [GitHub](https://github.com/omariosouto) | [Instagram](https://www.instagram.com/devsoutinho/)
+- **Nayanne Lopes**, Instrutora na Alura, por contribuir na Imersão React com as comparações entre React e Angular
+    - [LinkedIn](https://www.linkedin.com/in/nayannebatista/) | [Instagram](https://www.instagram.com/nayanne.tech/)
+- **Paulo Silveira**, Co-fundador e CEO da Alura, por idealizar e conduzir a Imersão React
+    - [LinkedIn](https://www.linkedin.com/in/paulosilveira/) | [Instagram](https://www.instagram.com/paulo_hipster/)
