@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/status-ativo-brightgreen.svg)](./README_pt-br.md)
 [![Website](https://img.shields.io/website?down_color=brightred&down_message=offline&up_color=brightgreen&up_message=online&url=https%3A%2F%2Ftjas-aluratube.vercel.app%2F)](https://tjas-aluratube.vercel.app/)
 [![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=blue)](./LICENSE.md)
-[![Acessos](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftjas%2Ftjas-aluratube&count_bg=%23007EC6&title_bg=%23555555&title=acessos&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Acessos](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftjas%2Ftjas-aluratube&count_bg=%2379C83D&title_bg=%23555555&title=acessos&edge_flat=false)](https://hits.seeyoufarm.com)
 [![Node](https://img.shields.io/badge/node-v18.12.1-green)](https://nodejs.org/pt-br/)
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://pt-br.reactjs.org/)
@@ -112,7 +112,7 @@ git push origin my-new-feature
 
 ## Agradecimentos
 
-- **Mario Souto** ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [Instagram](https://www.instagram.com/devsoutinho/) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [GitHub Stars](https://stars.github.com/profiles/omariosouto/)
+- **Mario Souto** ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [Twitter](https://twitter.com/omariosouto) ⁘ [Instagram](https://www.instagram.com/devsoutinho/) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [GitHub Stars](https://stars.github.com/profiles/omariosouto/)
 
     Instrutor da Imersão React da Alura, por compartilhar o seu conhecimento na Imersão React.
 
