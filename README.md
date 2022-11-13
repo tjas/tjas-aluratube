@@ -116,10 +116,10 @@ git push origin my-new-feature
 
     Instructor at Alura's React Immersion, for sharing his knowledge at React Immersion.
 
-- **Nayanne Lopes** ⁘ [LinkedIn](https://www.linkedin.com/in/nayannebatista/) ⁘ [Instagram](https://www.instagram.com/nayanne.tech/)
+- **Nayanne Lopes** ⁘ [LinkedIn](https://www.linkedin.com/in/nayannebatista/) ⁘ [Instagram](https://www.instagram.com/nayanne.tech/) ⁘ [GitHub](https://github.com/nayannebatista/)
 
     Instructor at Alura, for contributing at React Immersion comparing React to Angular.
 
-- **Paulo Silveira** ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/)
+- **Paulo Silveira** ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/) ⁘ [GitHub](https://github.com/peas)
 
     Co-founder and CEO at Alura, for idealizing and creating the React Immersion.
