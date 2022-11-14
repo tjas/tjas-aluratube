@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledBanner = styled.header`
+const StyledBanner = styled.div`
   .crop {
     height: 25vh;
     margin-top: 56px;
@@ -18,7 +18,7 @@ const StyledBanner = styled.header`
 
 export function Banner(properties) {
   return (
-    <StyledBanner data-theme={properties.theme}>
+    <StyledBanner>
       <div className="crop">
         <img src={`${properties.banner.image}`} />
       </div>

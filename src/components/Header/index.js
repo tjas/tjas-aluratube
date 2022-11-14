@@ -3,14 +3,17 @@ import styled from "styled-components";
 import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs'; /* https://react-icons.github.io/react-icons */
 
 const StyledHeader = styled.div`
+    /* background-color: ${({ theme }) => theme.backgroundLevel1}; */
+    /* border-bottom: 1px solid ${({ theme }) => theme.borderBase}; */
+    height: 140px;
     img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        border: solid 10px var(--backgroundBase);
+        border: solid 10px ${({ theme }) => theme.backgroundBase};
     }
     a {
-        color: var(--textColorBase);
+        color: ${({ theme }) => theme.textColorBase};
     }
     .user {
         translate: 0 -50px;
@@ -30,7 +33,7 @@ const StyledHeader = styled.div`
         width: 100%;
         gap: 16px;
         p {
-            color: var(--textColorLevel2);
+            color: ${({ theme }) => theme.textColorLevel2};
             margin-top: 6px;
         }
     }
@@ -47,10 +50,12 @@ const StyledHeader = styled.div`
 
 export function Header(properties) {
     return (
-        <StyledHeader  data-theme={properties.theme}>
+        <StyledHeader>
             <section className="user">
                 <div className="user-details">
-                    <img  className="user-avatar" src={`https://github.com/${properties.user.social.github}.png`} />
+                    <div className="user-avatar">
+                        <img src={`https://github.com/${properties.user.social.github}.png`} />
+                    </div>
                     <div  className="user-infos">
                         <h2>{properties.user.name}</h2>
                         <p>{properties.user.local}</p>

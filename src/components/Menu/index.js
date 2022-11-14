@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import Search from "./components/Search";
-import Theme from "./components/Theme";
+import DarkModeSwitch from "./components/DarkModeSwitch";
 
 const StyledMenu = styled.header`
 	display: flex;
 	flex-direction: row;
 	height: 56px;
 	justify-content: space-between;
-	background-color: var(--backgroundLevel1);
-	border-bottom: 1px solid var(--borderBase);
+	background-color: ${({ theme }) => theme.backgroundLevel1};
+	border-bottom: 1px solid ${({ theme }) => theme.borderBase};
 	align-items: center;
 	padding: 0 16px;
 	gap: 16px;
@@ -22,19 +22,19 @@ const StyledMenu = styled.header`
 			max-width: 127px;
 		}
 		.text {
-			fill: var(--textColorBase);
+			fill: ${({ theme }) => theme.textColorBase};
 		}
 	}
 `;
 
 export function Menu({ valorDoFiltro, setValorDoFiltro, theme, switchTheme }) {
 	return (
-		<StyledMenu data-theme={theme}>
+		<StyledMenu >
 			<div>
 				<Logo />
 			</div>
-			<Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} theme={theme} />
-			<Theme theme={theme} switchTheme={switchTheme} />
+			<Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+			<DarkModeSwitch />
 		</StyledMenu>
 	);
 }

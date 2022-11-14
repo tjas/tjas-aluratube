@@ -19,7 +19,7 @@ const StyledTimeline = styled.section`
 		width: 100%;
 		max-width: 210px;
 		height: auto;
-		border: 1px solid var(--borderBase);
+		border: 1px solid ${({ theme }) => theme.borderBase};
 	}
 	section {
 		width: 100%;
@@ -43,7 +43,7 @@ const StyledTimeline = styled.section`
 					padding-top: 8px;
 					display: block;
 					padding-right: 24px;
-					color: var(--textColorBase);
+					color: ${({ theme }) => theme.textColorBase};
 				}
 			}
 			@media (max-width: 750px) {
@@ -58,7 +58,7 @@ export function Timeline({ searchValue, ...properties }) {
 	// Statement
 	// Retorno por expressão
 	return (
-		<StyledTimeline data-theme={properties.theme}>
+		<StyledTimeline>
 			<h1 nameClass="title"><BsListNested /> Timeline</h1>
 			{playlistNames.map((playlistName) => {
 				const videos = properties.playlists[playlistName];

@@ -6,8 +6,8 @@ import { createGlobalStyle } from "styled-components";
 export const CSSReset = createGlobalStyle`
 
 	/* CSS Variables */
-	:root {
-		/* Default Theme */
+	/* :root {
+		//Default Theme
 		--backgroundBase: #F9F9F9;
 		--backgroundLevel1: #FFFFFF;
 		--backgroundLevel2: #F0F0F0;
@@ -17,7 +17,7 @@ export const CSSReset = createGlobalStyle`
 		--textColorLevel2: #888888;
 	}
 	[data-theme='light'] {
-		/* Light Theme */
+		//Light Theme
 		--backgroundBase: #F9F9F9;
 		--backgroundLevel1: #FFFFFF;
 		--backgroundLevel2: #F0F0F0;
@@ -27,7 +27,7 @@ export const CSSReset = createGlobalStyle`
 		--textColorLevel2: #888888;
 	}
 	[data-theme='dark'] {
-		/* Dark Theme */
+		//Dark Theme
 		--backgroundBase: #181818;
 		--backgroundLevel1: #202020;
 		--backgroundLevel2: #313131;
@@ -35,7 +35,7 @@ export const CSSReset = createGlobalStyle`
 		--textColorBase: #FFFFFF;
 		--textColorLevel1: #CCCCCC;
 		--textColorLevel2: #999999;
-	}
+	} */
 
 	/* Reset */
 	* {
@@ -45,6 +45,8 @@ export const CSSReset = createGlobalStyle`
 	}
 	body {
 		font-family: sans-serif;
+		background-color: ${({ theme }) => theme.backgroundBase};
+    	color: ${({ theme }) => theme.textColorBase};
 	}
 	h1 {
 		padding-bottom: 16px;
@@ -52,7 +54,7 @@ export const CSSReset = createGlobalStyle`
 		justify-content: center;
 		text-transform: capitalize;
 		margin: 16px 16px;
-		border-bottom: 1px solid var(--borderBase);
+		border-bottom: 1px solid ${({ theme }) => theme.borderBase};
 		svg {
 			font-size: 80%;
 		}
@@ -89,22 +91,22 @@ export const CSSReset = createGlobalStyle`
 		height: 8px;				/* height of the entire scrollbar */
 	}
 	body ::-webkit-scrollbar-track {
-		background: var(--backgroundBase);			/* color of the tracking area */
+		background: ${({ theme }) => theme.backgroundBase};			/* color of the tracking area */
 	}
 	body ::-webkit-scrollbar-thumb {
-		background-color: var(--backgroundLevel2);  /* color of the scroll thumb */
-		border-radius: 8px;         				/* roundness of the scroll thumb */
+		background-color: ${({ theme }) => theme.backgroundLevel2};  /* color of the scroll thumb */
+		border-radius: 8px;         								/* roundness of the scroll thumb */
 	}
 
 	/* Placeholders */
-	::placeholder { 					/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: var(--textColorLevel2);
-		opacity: 1; 					/* Firefox */
+	::placeholder { 												/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: ${({ theme }) => theme.textColorLevel2};
+		opacity: 1; 												/* Firefox */
 	}
-	:-ms-input-placeholder { 			/* Internet Explorer 10-11 */
-		color: var(--textColorLevel2);
+	:-ms-input-placeholder { 										/* Internet Explorer 10-11 */
+		color: ${({ theme }) => theme.textColorLevel2};
 	}
-	::-ms-input-placeholder { 			/* Microsoft Edge */
-		color: var(--textColorLevel2);
+	::-ms-input-placeholder { 										/* Microsoft Edge */
+		color: ${({ theme }) => theme.textColorLevel2};
 	}
 `;
