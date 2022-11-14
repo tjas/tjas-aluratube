@@ -5,18 +5,18 @@ import { BsSunFill } from 'react-icons/bs'; /* https://react-icons.github.io/rea
 const StyledTheme = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--borderBase);
+  border: 1px solid ${({ theme }) => theme.borderBase};
   border-radius: 5px;
   overflow: hidden;
   button {
     cursor: pointer;
-    border: 1px solid var(--borderBase);
+    border: 1px solid ${({ theme }) => theme.borderBase};
     padding: 10px 16px;
     border: none;
     outline: none;
     font-size: 15px;
-    color: var(--textColorBase);
-    background-color: var(--backgroundBase);
+    color: ${({ theme }) => theme.textColorBase};
+    background-color: ${({ theme }) => theme.backgroundBase};
     }
 `;
 

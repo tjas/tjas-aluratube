@@ -50,7 +50,7 @@ npm run dev
 
 ## Contribuição
 
-> Adaptado do projeto [Flappy Bird: Dev Soutinho](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md).
+> Adaptado do projeto ["Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md).
 
 1. Crie um fork!
 2. Crie sua feature branch:
@@ -90,15 +90,27 @@ git push origin my-new-feature
 
 - [Versão LTS do Node.JS](https://nodejs.org/pt-br/);
 - [Documentação do npm](https://docs.npmjs.com/);
-- [Visual Studio Code](https://code.visualstudio.com/);
-- [Componentes do Material Design](https://m3.material.io/components);
 - [Documentação do React.JS](https://pt-br.reactjs.org/docs/getting-started.html);
 - [Documentação do Next.JS](https://nextjs.org/docs/getting-started);
 - [Documentação do Styled Components](https://styled-components.com/docs);
+- [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), para utilizar React com Next.
+
+## Outros links interessantes
+
+- [Figma](https://www.figma.com/);
+- [Visual Studio Code](https://code.visualstudio.com/), interface de desenvolvimento;
+- [Unsplash](https://unsplash.com/), para imagens grátis;
+- [Componentes do Material Design](https://m3.material.io/components);
 - [Conta da Vercel no GitHub](https://github.com/vercel);
 - [Exemplo oficial de utilização do Styled Components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components);
-- [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js).
-- [Conta "Alura Challenges" da Alura no GitHub](https://github.com/alura-challenges).
+- [Conta "Alura Challenges" da Alura no GitHub](https://github.com/alura-challenges), projetos legais para referência;
+- [Projeto "Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md);
+- [Projeto "Awesome Design Systems"](https://github.com/alexpate/awesome-design-systems), referência para vários design systems;
+- [Alura Verso](https://www.alura.com.br/aluraverso);
+- [TechGuide.sh](https://techguide.sh/), um guia para a carreira em tecnologia;
+- [Vitrine Dev](https://cursos.alura.com.br/vitrinedev);
+- [Babel](https://babeljs.io/), um compilador JavaScript;
+- [QUOKKA](https://quokkajs.com/), uma ferramenta de suporte para codificação em JavasCript.
 
 ## Contato
 

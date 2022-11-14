@@ -5,7 +5,7 @@ import { MdSearch } from 'react-icons/md'; /* https://react-icons.github.io/reac
 const StyledSearch = styled.div`
   display: flex;
   flex-direction: row;
-  border: 1px solid var(--borderBase);
+  border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
   width: 100%;
   border-radius: 5px;
@@ -17,18 +17,18 @@ const StyledSearch = styled.div`
     border: none;
     outline: none;
     font-size: 15px;
-    color: var(--textColorBase);
-    background-color: var(--backgroundBase);
+    color: ${({ theme }) => theme.textColorBase};
+    background-color: ${({ theme }) => theme.backgroundBase};
   }
   button {
     flex: 1;
     cursor: pointer;
     border: none;
-    color: var(--textColorBase);
+    color: ${({ theme }) => theme.textColorBase};
     font-size: 18px;
-    background-color: var(--backgroundLevel2);
+    background-color: ${({ theme }) => theme.backgroundLevel2};
     box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
-    border-left: 1px solid var(--borderBase);
+    border-left: 1px solid ${({ theme }) => theme.borderBase};
     width: 40px;
     height: 40px;
     svg {
@@ -53,7 +53,7 @@ export default function Search({ valorDoFiltro, setValorDoFiltro, theme }) {
     const setValorDaBusca = setValorDoFiltro;
 
     return (
-        <StyledSearch data-theme={theme}>
+        <StyledSearch>
             <input type="text" placeholder="Search..." onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} />
             <button>
                 <MdSearch />

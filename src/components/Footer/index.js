@@ -9,7 +9,7 @@ const StyledFooter = styled.section`
     justify-content: space-between;
     gap: 16px;
     margin-top: 16px;
-    border-top: 1px solid var(--borderBase);
+    border-top: 1px solid ${({ theme }) => theme.borderBase};
     padding: 28px 32px;
     div {
         display: flex;
@@ -21,7 +21,7 @@ const StyledFooter = styled.section`
             display: flex;
             align-items: center;
             font-size: 13px;
-            color: var(--textColorLevel2);
+            color: ${({ theme }) => theme.textColorLevel2};
             a {
                 color: inherit;
                 cursor: pointer;
@@ -29,12 +29,12 @@ const StyledFooter = styled.section`
         }
     }
     .localization {
-        border: 1px solid var(--borderBase);
+        border: 1px solid ${({ theme }) => theme.borderBase};
         padding: 6px;
         gap: 4px;
     }
     .icon {
-        color: var(--textColorLevel2);
+        color: ${({ theme }) => theme.textColorLevel2};
         font-size: 10px;
     }
     @media (max-width: 750px) {
@@ -44,7 +44,7 @@ const StyledFooter = styled.section`
 
 export function Footer(properties) {
     return (
-      <StyledFooter data-theme={properties.theme}>
+      <StyledFooter>
         <div>
             <div className="left">
                 <a>About</a>
@@ -54,7 +54,7 @@ export function Footer(properties) {
                 <a>Service Terms</a>
             </div>
             <div className="right">
-                <BsGlobe style={{"color": "var(--textColorLevel2)"}} />
+                <BsGlobe style={{"color": "${({ theme }) => theme.textColorLevel2)"}} />
                 <a> 
                     <div className="localization">
                         EN
