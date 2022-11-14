@@ -19,7 +19,7 @@ This project is an adaptation and evolution of the **[AluraTube](https://github.
 
 <br />
 <p align="center">
-    <img alt="Preview" src="./screenshots/preview.png" width="800" />
+    <img alt="Preview" src="./screenshots/preview light.png" width="800" />
 </p>
 <br />
 
@@ -74,7 +74,7 @@ git push origin my-new-feature
     - After your pull request is merged, you can safely delete your branch.
 
 ## Todo List
-
+ 
 - [ ] Obtain a list of videos dinamically from [Google API](https://www.npmjs.com/package/googleapis);
 - [ ] Add fade efect in horizontal scrolls extremities;
 - [ ] Create, edit and remove playlists;

@@ -19,7 +19,7 @@ const StyledTimeline = styled.section`
 		width: 100%;
 		max-width: 210px;
 		height: auto;
-		border: 1px solid #eeeeee;
+		border: 1px solid var(--borderBase);
 	}
 	section {
 		width: 100%;
@@ -43,7 +43,7 @@ const StyledTimeline = styled.section`
 					padding-top: 8px;
 					display: block;
 					padding-right: 24px;
-					color: ${({ theme }) => theme.textColorBase || "#222222"};
+					color: var(--textColorBase);
 				}
 			}
 			@media (max-width: 750px) {
@@ -53,27 +53,34 @@ const StyledTimeline = styled.section`
 	}
 `;
 
-export function Timeline(properties) {
+export function Timeline({ searchValue, ...properties }) {
 	const playlistNames = Object.keys(properties.playlists);
 	// Statement
 	// Retorno por expressão
 	return (
-		<StyledTimeline>
+		<StyledTimeline data-theme={properties.theme}>
 			<h1 nameClass="title"><BsListNested /> Timeline</h1>
 			{playlistNames.map((playlistName) => {
 				const videos = properties.playlists[playlistName];
 				return (
-					<section>
+					<section key={playlistName}>
 						<h2> {playlistName} </h2>
 						<div>
-							{videos.map((video) => {
-								return (
-									<a href={video.url} target="_blank">
-										<img src={video.thumb} />
-										<span> {video.title} </span>
-									</a>
-								);
-							})}
+							{videos
+								.filter((video) => {
+                                    const titleNormalized = video.title.toLowerCase();
+                                    const searchValueNormalized = searchValue.toLowerCase();
+                                    return titleNormalized.includes(searchValueNormalized)
+                                })
+								.map((video) => {
+									return (
+										<a key={video.url} href={video.url} target="_blank">
+											<img src={video.thumb} />
+											<span> {video.title} </span>
+										</a>
+									);
+								})
+							}
 						</div>
 					</section>
 				);

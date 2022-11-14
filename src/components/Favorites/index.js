@@ -15,7 +15,7 @@ const StyledFavorites = styled.section`
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        border: 1px solid #eeeeee;
+        border: 1px solid var(--borderBase);
 	}
 	section {
         width: calc(100vw - 16px * 4);
@@ -37,7 +37,7 @@ const StyledFavorites = styled.section`
                     padding-top: 8px;
                     display: flex;
                     text-align: center;
-                    color: ${({ theme }) => theme.textColorBase || "#222222"};
+                    color: var(--textColorBase);
                 }
             }
         }
@@ -52,13 +52,13 @@ export function Favorites(properties) {
   // Statement
   // Retorno por expressão
   return (
-    <StyledFavorites>
+    <StyledFavorites data-theme={properties.theme}>
         <h1><BsStar /> Favorites</h1>
         <section>
         {favorites.map((index) => {
             const favorite = properties.favorites[index];
             return (
-                <div nameclass="favorite">
+                <div key={index} nameclass="favorite">
                     <a href={favorite.url} target="_blank">
                         <img src={favorite.thumb} />
                         <span>{favorite.name}</span>

@@ -1,22 +1,40 @@
 import { createGlobalStyle } from "styled-components";
 
+// Reference to themes: 
+// https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/
+
 export const CSSReset = createGlobalStyle`
 
 	/* CSS Variables */
 	:root {
-		/* Light Mode */
-		--light-backgroundBase: #F9F9F9;
-		--light-backgroundLevel1: #FFFFFF;
-		--light-backgroundLevel2: #F0F0F0;
-		--light-borderBase: #E5E5E5;
-		--light-textColorBase: #222222;
-
-		/* Dark Mode */
-		--dark-backgroundBase: #181818;
-		--dark-backgroundLevel1: #202020;
-		--dark-backgroundLevel2: #313131;
-		--dark-borderBase: #383838;
-		--dark-textColorBase: #FFFFFF;
+		/* Default Theme */
+		--backgroundBase: #F9F9F9;
+		--backgroundLevel1: #FFFFFF;
+		--backgroundLevel2: #F0F0F0;
+		--borderBase: #E5E5E5;
+		--textColorBase: #222222;
+		--textColorLevel1: #555555;
+		--textColorLevel2: #888888;
+	}
+	[data-theme='light'] {
+		/* Light Theme */
+		--backgroundBase: #F9F9F9;
+		--backgroundLevel1: #FFFFFF;
+		--backgroundLevel2: #F0F0F0;
+		--borderBase: #E5E5E5;
+		--textColorBase: #222222;
+		--textColorLevel1: #555555;
+		--textColorLevel2: #888888;
+	}
+	[data-theme='dark'] {
+		/* Dark Theme */
+		--backgroundBase: #181818;
+		--backgroundLevel1: #202020;
+		--backgroundLevel2: #313131;
+		--borderBase: #383838;
+		--textColorBase: #FFFFFF;
+		--textColorLevel1: #CCCCCC;
+		--textColorLevel2: #999999;
 	}
 
 	/* Reset */
@@ -34,7 +52,7 @@ export const CSSReset = createGlobalStyle`
 		justify-content: center;
 		text-transform: capitalize;
 		margin: 16px 16px;
-		border-bottom: 1px solid #eeeeee;
+		border-bottom: 1px solid var(--borderBase);
 		svg {
 			font-size: 80%;
 		}
@@ -65,15 +83,28 @@ export const CSSReset = createGlobalStyle`
 		}
 	}
 	
+	/* Scrollbars */
 	body ::-webkit-scrollbar { 
-		width: 8px;               		/* width of the entire scrollbar */
-		height: 8px;					/* height of the entire scrollbar */
+		width: 8px;               	/* width of the entire scrollbar */
+		height: 8px;				/* height of the entire scrollbar */
 	}
 	body ::-webkit-scrollbar-track {
-		background: #ffffff;        	/* color of the tracking area */
+		background: var(--backgroundBase);			/* color of the tracking area */
 	}
 	body ::-webkit-scrollbar-thumb {
-		background-color: #dddddd;  	/* color of the scroll thumb */
-		border-radius: 8px;         	/* roundness of the scroll thumb */
+		background-color: var(--backgroundLevel2);  /* color of the scroll thumb */
+		border-radius: 8px;         				/* roundness of the scroll thumb */
+	}
+
+	/* Placeholders */
+	::placeholder { 					/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: var(--textColorLevel2);
+		opacity: 1; 					/* Firefox */
+	}
+	:-ms-input-placeholder { 			/* Internet Explorer 10-11 */
+		color: var(--textColorLevel2);
+	}
+	::-ms-input-placeholder { 			/* Microsoft Edge */
+		color: var(--textColorLevel2);
 	}
 `;

@@ -19,7 +19,7 @@ Este projeto é uma adaptação e evolução do projeto **[AluraTube](https://gi
 
 <br />
 <p align="center">
-    <img alt="Preview" src="./screenshots/preview.png" width="800" />
+    <img alt="Preview" src="./screenshots/preview light.png" width="800" />
 </p>
 <br />
 

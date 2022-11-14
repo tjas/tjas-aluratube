@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import Search from "./components/Search";
+import Theme from "./components/Theme";
 
 const StyledMenu = styled.header`
 	display: flex;
 	flex-direction: row;
 	height: 56px;
 	justify-content: space-between;
-	background-color: ${({ theme }) => theme.backgroundLevel1 || "#FFFFFF"};
-	border-bottom: 1px solid ${({ theme }) => theme.borderBase || "#e5e5e5"};
+	background-color: var(--backgroundLevel1);
+	border-bottom: 1px solid var(--borderBase);
 	align-items: center;
 	padding: 0 16px;
 	gap: 16px;
@@ -20,17 +22,19 @@ const StyledMenu = styled.header`
 			max-width: 127px;
 		}
 		.text {
-			fill: ${({ theme }) => theme.textColorBase || "#222222"};
+			fill: var(--textColorBase);
 		}
 	}
 `;
 
-export function Menu() {
+export function Menu({ valorDoFiltro, setValorDoFiltro, theme, switchTheme }) {
 	return (
-		<StyledMenu>
+		<StyledMenu data-theme={theme}>
 			<div>
 				<Logo />
 			</div>
+			<Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} theme={theme} />
+			<Theme theme={theme} switchTheme={switchTheme} />
 		</StyledMenu>
 	);
 }

@@ -10,8 +10,10 @@
             "instagram": "thiago.tjas",
             "github": "tjas"
         },
-        "banner": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
-        "banner-ref": "https://unsplash.com/photos/HDd-NQ_AMNQ"
+        "banner": {
+            "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+            "reference": "https://unsplash.com/photos/HDd-NQ_AMNQ"
+        }
     },
     "playlists": {
         "jogos": [
@@ -258,6 +260,6 @@
         }
     },
     "environment": "development",
-    "version": "0.1.0",
-    "build": "20221109"
+    "version": "0.2.0",
+    "build": "20221113"
 }

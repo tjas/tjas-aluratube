@@ -18,9 +18,9 @@ const StyledBanner = styled.header`
 
 export function Banner(properties) {
   return (
-    <StyledBanner>
+    <StyledBanner data-theme={properties.theme}>
       <div className="crop">
-        <img src={`${properties.user.banner}`} />
+        <img src={`${properties.banner.image}`} />
       </div>
     </StyledBanner>
   );

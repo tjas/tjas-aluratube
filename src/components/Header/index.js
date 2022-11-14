@@ -1,4 +1,3 @@
-//import config from "../config.json";
 import styled from "styled-components";
 
 import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs'; /* https://react-icons.github.io/react-icons */
@@ -8,10 +7,10 @@ const StyledHeader = styled.div`
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        border: solid 10px #ffffff;
+        border: solid 10px var(--backgroundBase);
     }
     a {
-        color: #555555;
+        color: var(--textColorBase);
     }
     .user {
         translate: 0 -50px;
@@ -31,7 +30,7 @@ const StyledHeader = styled.div`
         width: 100%;
         gap: 16px;
         p {
-            color: #777777;
+            color: var(--textColorLevel2);
             margin-top: 6px;
         }
     }
@@ -48,7 +47,7 @@ const StyledHeader = styled.div`
 
 export function Header(properties) {
     return (
-        <StyledHeader>
+        <StyledHeader  data-theme={properties.theme}>
             <section className="user">
                 <div className="user-details">
                     <img  className="user-avatar" src={`https://github.com/${properties.user.social.github}.png`} />
