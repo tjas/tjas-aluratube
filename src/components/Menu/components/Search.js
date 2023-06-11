@@ -46,7 +46,7 @@ const StyledSearch = styled.div`
 // Search
 // Information flows top-down
 
-export default function Search({ valorDoFiltro, setValorDoFiltro, theme }) {
+export default function Search({ valorDoFiltro, setValorDoFiltro }) {
     // const [valorDaBusca, setValorDaBusca] = React.useState("Teste");
     // console.log("Search", valorDaBusca)
     const valorDaBusca = valorDoFiltro;

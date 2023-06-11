@@ -93,7 +93,11 @@ git push origin my-new-feature
 - [Documentação do React.JS](https://pt-br.reactjs.org/docs/getting-started.html);
 - [Documentação do Next.JS](https://nextjs.org/docs/getting-started);
 - [Documentação do Styled Components](https://styled-components.com/docs);
-- [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), para utilizar React com Next.
+- [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), para utilizar React com Next;
+- [API do GitHub](https://api.github.com/users/tjas);
+- [Documentação do Supabase](https://supabase.com/docs);
+- [Supabase-JS](https://www.npmjs.com/package/@supabase/supabase-js);
+- [Usando Effect Hook (Hook de Efeito)](https://pt-br.reactjs.org/docs/hooks-effect.html).
 
 ## Outros links interessantes
 
@@ -110,7 +114,8 @@ git push origin my-new-feature
 - [TechGuide.sh](https://techguide.sh/), um guia para a carreira em tecnologia;
 - [Vitrine Dev](https://cursos.alura.com.br/vitrinedev);
 - [Babel](https://babeljs.io/), um compilador JavaScript;
-- [QUOKKA](https://quokkajs.com/), uma ferramenta de suporte para codificação em JavasCript.
+- [QUOKKA](https://quokkajs.com/), uma ferramenta de suporte para codificação em JavasCript;
+- [Supabase](https://supabase.com/).
 
 ## Contato
 

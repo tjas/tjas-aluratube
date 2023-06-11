@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import Search from "./components/Search";
 import DarkModeSwitch from "./components/DarkModeSwitch";
+import React from "react";
+import { PlayerButton } from "../Player";
 
 const StyledMenu = styled.header`
 	display: flex;
@@ -27,14 +29,17 @@ const StyledMenu = styled.header`
 	}
 `;
 
-export function Menu({ valorDoFiltro, setValorDoFiltro, theme, switchTheme }) {
+export function Menu({ valorDoFiltro, setValorDoFiltro }) {
 	return (
 		<StyledMenu >
 			<div>
 				<Logo />
 			</div>
 			<Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
-			<DarkModeSwitch />
+			<div style={{ display: "flex", gap: "32px", "alignItems": "center" }}>
+				<PlayerButton />
+				<DarkModeSwitch />
+			</div>
 		</StyledMenu>
 	);
 }

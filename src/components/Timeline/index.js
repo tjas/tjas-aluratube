@@ -1,6 +1,9 @@
+import React from "react";
 import styled from "styled-components";
 
 import { BsListNested } from 'react-icons/bs'; /* https://react-icons.github.io/react-icons */
+
+import VideoPlayerModal, { usePlayer, initial } from "../Player";
 
 const StyledTimeline = styled.section`
 	flex: 1;
@@ -37,6 +40,7 @@ const StyledTimeline = styled.section`
 			overflow-x: scroll;
 			scroll-snap-type: x mandatory;
 			a {
+				cursor: pointer;
 				scroll-snap-align: start;
 				font-size: 15px;
 				span {
@@ -55,11 +59,30 @@ const StyledTimeline = styled.section`
 
 export function Timeline({ searchValue, ...properties }) {
 	const playlistNames = Object.keys(properties.playlists);
+	const [playerVisivel, setPlayerVisivel] = React.useState(false);
+	const [selectedVideo, setSelectedVideo] =  React.useState(initial.initialValues);
+
+	//const player = usePlayer({...initial.initialValues});
+
+    function toggleModal(e) {
+        setPlayerVisivel(!playerVisivel);
+    }
+
+	React.useEffect(() => {
+      //setPlayerVisivel(!playerVisivel);
+	  console.log("SelcectedVideo (Timeline):", selectedVideo);
+	  toggleModal();
+    }, [selectedVideo]);
+
+	//React.useEffect(() => {
+    //   //setPlayerVisivel(!playerVisivel);
+    //}, [playerVisivel]);
+
 	// Statement
 	// Retorno por expressão
 	return (
 		<StyledTimeline>
-			<h1 nameClass="title"><BsListNested /> Timeline</h1>
+			<h1 nameclass="title"><BsListNested /> Timeline</h1>
 			{playlistNames.map((playlistName) => {
 				const videos = properties.playlists[playlistName];
 				return (
@@ -74,7 +97,14 @@ export function Timeline({ searchValue, ...properties }) {
                                 })
 								.map((video) => {
 									return (
-										<a key={video.url} href={video.url} target="_blank">
+										//<a key={video.url} href={video.url} target="_blank">
+										<a key={video.url}
+											onClick={() => {
+												//console.log("SelectedVideo:", video);
+												setSelectedVideo({isOpen: true, ...video});
+												toggleModal();
+												//toggleModal();
+											}}>
 											<img src={video.thumb} />
 											<span> {video.title} </span>
 										</a>
@@ -85,6 +115,18 @@ export function Timeline({ searchValue, ...properties }) {
 					</section>
 				);
 			})}
+			{
+				playerVisivel ?
+				
+				<VideoPlayerModal 
+					//isOpen={playerVisivel} 
+					video={{...selectedVideo}}
+					onEscapeKeydown={() => toggleModal()}
+            		onBackgroundClick={() => toggleModal()}
+				/>
+			
+				: false
+			}
 		</StyledTimeline>
 	);
 }

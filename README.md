@@ -93,7 +93,11 @@ git push origin my-new-feature
 - [React.JS documentation](https://reactjs.org/docs/getting-started.html);
 - [Next.JS documentation](https://nextjs.org/docs/getting-started);
 - [Styled Components documentation](https://styled-components.com/docs);
-- [next.config.js file of Styled Components examples](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), for using React with Next.
+- [next.config.js file of Styled Components examples](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), for using React with Next;
+- [GitHub's API](https://api.github.com/users/tjas);
+- [Supabase documentation](https://supabase.com/docs);
+- [Supabase-JS](https://www.npmjs.com/package/@supabase/supabase-js);
+- [Using the Effect Hook](https://en.reactjs.org/docs/hooks-effect.html).
 
 ## Other interesting links
 
@@ -110,7 +114,8 @@ git push origin my-new-feature
 - [TechGuide.sh](https://techguide.sh/), a roadmap for technology career;
 - [Vitrine Dev](https://cursos.alura.com.br/vitrinedev);
 - [Babel](https://babeljs.io/), a JavaScript compiler;
-- [QUOKKA](https://quokkajs.com/), a JavasCript coding support tool.
+- [QUOKKA](https://quokkajs.com/), a JavasCript coding support tool;
+- [Supabase](https://supabase.com/).
 
 ## Contact
 
