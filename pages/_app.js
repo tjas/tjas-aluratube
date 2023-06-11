@@ -2,6 +2,11 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import ColorModeProvider, { ColorModeContext } from "../src/components/Menu/components/ColorMode";
+import { VideoPlayerProvider } from "../src/components/Player";
+import RegisterVideo from "../src/components/RegisterVideo";
+import { ModalProvider } from 'styled-react-modal';
+//import Player from "../src/components/Player";
+
 
 const theme = {
     light: {
@@ -24,25 +29,31 @@ const theme = {
     }
 };
 
+
 // _app.js -> Global definitions of NextJS
 // ThemeProvider -> Provide the theme globally for the app
 // ColorModeProvider -> Provide the state of light or dark mode globally for the app
 
 function ProviderWrapper(props) {
+    const isDarkTheme = false;
     return (
-        <ColorModeProvider initialMode={"dark"}>
+        <ColorModeProvider initialMode={isDarkTheme ? "dark" : "light"}>
             {props.children}
         </ColorModeProvider>
     )
 }
 
-function MyApp({ Component, pageProps }) {
+function Root({ Component, pageProps }) {
     const contexto = React.useContext(ColorModeContext);
-    console.log(contexto.mode);
+    //console.log(contexto.mode);
     return (
         <ThemeProvider theme={theme[contexto.mode]}>
-            <CSSReset />
-            <Component {...pageProps} />
+            <ModalProvider>
+                <CSSReset />
+                <Component {...pageProps} />
+                {/* <VideoPlayerProvider /> */}
+                <RegisterVideo />
+            </ModalProvider>
         </ThemeProvider>
     )
 }
@@ -50,7 +61,7 @@ function MyApp({ Component, pageProps }) {
 export default function _App(props) {
     return (
         <ProviderWrapper>
-            <MyApp {...props} />
+            <Root {...props} />
         </ProviderWrapper>
     )
 };
