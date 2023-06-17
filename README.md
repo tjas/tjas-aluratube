@@ -2,18 +2,23 @@
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
 [![Website](https://img.shields.io/website?down_color=brightred&down_message=offline&up_color=brightgreen&up_message=online&url=https%3A%2F%2Ftjas-aluratube.vercel.app%2F)](https://tjas-aluratube.vercel.app/)
-[![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=blue)](./LICENSE.md)
+[![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=blue)](./LICENSE)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftjas%2Ftjas-aluratube&count_bg=%2379C83D&title_bg=%23555555&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 [![Node](https://img.shields.io/badge/node-v18.12.1-green)](https://nodejs.org/en/)
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
 
 
-> 🇺🇸 English ⁘ 🇧🇷 [Portuguese](./README_pt-br.md)
+> ⭐ Mark the project with a star.
+> 
+> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/).
+>
+> 🌐 Access my personal website: [thiago-tjas.com](http://thiago-tjas.com/)
+> 
+> 🇧🇷 Acesse a versão em [Portuguese do Brasil](./README_pt-br.md).
 
-> ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/)
 
-> ⭐ Mark the project with a star
 
 This project is an adaptation and evolution of the **[AluraTube](https://github.com/alura-challenges/aluratube)** project, proposed at [Alura](https://www.alura.com.br/)'s 5th React Immersion, that occured in november 2022. It initially intended to spread basic knowledgements about [ReactJS](https://reactjs.org/) technology, but became an opportunity do practice and evolve personal skills in such technology and other related ones.
 
@@ -119,15 +124,17 @@ git push origin my-new-feature
 
 ## Contact
 
-- **Thiago Jorge Almeida dos Santos** ⁘ [LinkedIn](https://www.linkedin.com/in/thiago-tjas) ⁘ [YouTube](https://www.youtube.com/@thiago_tjas) ⁘ [Instagram](https://www.instagram.com/thiago.tjas/) ⁘ [GitHub](https://github.com/tjas)
-
-    Project author and maintainer.
+> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
+>
+> **Thiago Jorge Almeida dos Santos**
+>
+> Project author and maintainer
 
 ## Licence
 
-- Distributed under [MIT License](./LICENSE.md).
+- Distributed under [MIT License](./LICENSE).
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
 - **Mario Souto** ⁘ [LinkedIn](https://www.linkedin.com/in/omariosouto/) ⁘ [YouTube](https://www.youtube.com/c/DevSoutinho) ⁘ [Twitter](https://twitter.com/omariosouto) ⁘ [Instagram](https://www.instagram.com/devsoutinho/) ⁘ [GitHub](https://github.com/omariosouto) ⁘ [GitHub Stars](https://stars.github.com/profiles/omariosouto/)
 
@@ -139,4 +146,4 @@ git push origin my-new-feature
 
 - **Paulo Silveira** ⁘ [LinkedIn](https://www.linkedin.com/in/paulosilveira/) ⁘ [Instagram](https://www.instagram.com/paulo_hipster/) ⁘ [GitHub](https://github.com/peas)
 
-    Co-founder and CEO at Alura, for idealizing and creating the React Immersion.
+    Co-founder and CEO at Alura, for idealizing and creating the React Immersion. -->
