@@ -11,16 +11,13 @@
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://pt-br.reactjs.org/)
 
-
-> ⭐ Marque o projeto com uma estrela.
+> ⭐ Marque o projeto com uma estrela. 👀 Acompanhe o projeto para receber novidades.
 >
-> > 👀 Watch the project for receive news.
-> 
 > ⚙️ [Acesse a demo e veja o projeto funcionando](https://tjas-aluratube.vercel.app/).
 >
 > 🌐 Acesse meu site pessoal: [thiago-tjas.com](http://thiago-tjas.com/)
-> 
->  🇺🇸  Access the [US English](./README.md) version.
+>
+> 🇺🇸 Access the [US English](./README.md) version of this page.
 
 
 Este projeto é uma adaptação e evolução do projeto **[AluraTube](https://github.com/alura-challenges/aluratube)**, proposto no 5ª Imersão React da [Alura](https://www.alura.com.br/), que ocorreu em novembro de 2022. Inicialmente ele tinha como objetivo divulgar conhecimentos básicos sobre a tecnologia [React.JS](https://pt-br.reactjs.org/), mas tornou-se uma oportunidade de praticar e desenvolver habilidades pessoais nessa tecnologia e em outras relacionadas.
@@ -128,12 +125,7 @@ git push origin my-new-feature
 ## Contato
 
 > **Thiago Jorge Almeida dos Santos**, autor e mantenedor do projeto.
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
-
-
-
-
+> > [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
 
 ## Licença
 

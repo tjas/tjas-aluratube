@@ -12,16 +12,13 @@
 [![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
 
-
-> ⭐ Mark the project with a star.
+> ⭐ Mark the project with a star. 👀 Watch the project for receive news.
 >
-> > 👀 Watch the project for receive news.
-> 
 > ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/).
 >
 > 🌐 Access my personal website: [thiago-tjas.com](http://thiago-tjas.com/)
-> 
->  🇧🇷  Acesse a versão em [Portuguese do Brasil](./README_pt-br.md).
+>
+> 🇧🇷 Acesse a versão em [Portuguese do Brasil](./README_pt-br.md) desta página.
 
 
 
@@ -129,11 +126,9 @@ git push origin my-new-feature
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
+> **Thiago Jorge Almeida dos Santos**, project author and maintainer.
+> > [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
 
-**Thiago Jorge Almeida dos Santos**
-
-Project author and maintainer
 
 ## Licence
 
