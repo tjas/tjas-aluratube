@@ -24,7 +24,6 @@
 <!-- >
 > 🌐 Acesse meu site pessoal: [thiago-tjas.com](http://thiago-tjas.com/) -->
 
-
 Este projeto é uma adaptação e evolução do projeto **[AluraTube](https://github.com/alura-challenges/aluratube)**, proposto no 5ª Imersão React da [Alura](https://www.alura.com.br/), que ocorreu em novembro de 2022. Inicialmente ele tinha como objetivo divulgar conhecimentos básicos sobre a tecnologia [React.JS](https://pt-br.reactjs.org/), mas tornou-se uma oportunidade de praticar e desenvolver habilidades pessoais nessa tecnologia e em outras relacionadas.
 
 <br />
@@ -44,88 +43,88 @@ Este é um exemplo de como você pode configurar o projeto localmente no seu com
 1. Certifique-se de que você tem o Node.JS 18.12.1+ com o npm 8.19.2+ instalado ou verifique como fazê-lo em [NodeJS.org](https://nodejs.org/pt-br/download/);
 2. Certifique-se de que você tem o Git instalado ou verifique como fazê-lo em [Git-scm.com](https://git-scm.com/);
 3. Acesse a pasta na qual você deseja salvar o projeto, então, clone o repositório nesta pasta
-```sh
-git clone https://github.com/tjas/tjas-aluratube
-```
+    ```sh
+    git clone https://github.com/tjas/tjas-aluratube
+    ```
 4. Acesse a pasta do projeto;
 5. Instale as dependências do projeto (obtidas, por padrão, do arquivo `package.json`)
-```sh
-npm install
-```
+    ```sh
+    npm install
+    ```
 6. Execute a aplicação
-```sh
-npm run dev
-```
+    ```sh
+    npm run dev
+    ```
 7. Finalmente, acesse a aplicação no endereço http://localhost:3000
 
 ## Contribuição
-
-> Adaptado do projeto ["Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md).
+<!-- > Adaptado do projeto ["Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md). -->
 
 1. Crie um fork!
-2. Crie sua feature branch:
-```
-git checkout -b my-new-feature
-```
+2. Crie sua branch de funcionalidade:
+    ```sh
+    git checkout -b minha-nova-funcionalidade
+    ```
 3. Adicione os arquivos modificados:
-```
-git add .
-```
+    ```sh
+    git add .
+    ```
 4. Faça um Commit com suas alterações:
-```
-git commit -m "Add some feature"
-```
+    ```sh
+    git commit -m "Adicione algum comentário útil aqui"
+    ```
 5. Faça um push da sua branch:
-```
-git push origin my-new-feature
-```
+    ```sh
+    git push origin minha-nova-funcionalidade
+    ```
 6. Envie um [Pull Request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) para esse repositório
-    - Adicione um título e uma descrição que deixe claro sua sugestão.
-    - Depois que seu pull request for mergeado, você pode apagar sua branch.
+    * Adicione um título e uma descrição que deixe claro sua sugestão;
+    * Utilize o idioma inglês para comentários e nomes de branch;
+    * Depois que seu pull request for mergeado, você pode apagar sua branch.
 
 ## Lista de tarefas a serem realizadas
 
-- [ ] Obter uma lista de vídeos dinamicamente por meio da [Google API](https://www.npmjs.com/package/googleapis);
-- [ ] Incluir efeito de _fade_ nas extremidades dos _scrolls_ horizontais;
-- [ ] Criar, editar e excluir playlists;
-- [ ] Adicionar e remover vídeos;
-- [ ] Adicionar e remover favoritos;
-- [ ] Editar as informações de usuário;
-- [ ] Persistir informações em base de dados local;
-- [ ] Traduzir para outros idiomas;
-- [ ] Criar página de login;
-- [ ] Separar páginas públicas e privadas.
+* [ ] Obter uma lista de vídeos dinamicamente por meio da [Google API](https://www.npmjs.com/package/googleapis);
+* [ ] Incluir efeito de _fade_ nas extremidades dos _scrolls_ horizontais;
+* [ ] Criar, editar e excluir playlists;
+* [ ] Adicionar e remover vídeos;
+* [ ] Adicionar e remover favoritos;
+* [ ] Editar as informações de usuário;
+* [ ] Persistir informações em base de dados local;
+* [ ] Traduzir para outros idiomas;
+* [ ] Criar página de login;
+* [ ] Separar páginas públicas e privadas.
 
 ## Referências
 
-- [Versão LTS do Node.JS](https://nodejs.org/pt-br/);
-- [Documentação do npm](https://docs.npmjs.com/);
-- [Documentação do React.JS](https://pt-br.reactjs.org/docs/getting-started.html);
-- [Documentação do Next.JS](https://nextjs.org/docs/getting-started);
-- [Documentação do Styled Components](https://styled-components.com/docs);
-- [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), para utilizar React com Next;
-- [API do GitHub](https://api.github.com/users/tjas);
-- [Documentação do Supabase](https://supabase.com/docs);
-- [Supabase-JS](https://www.npmjs.com/package/@supabase/supabase-js);
-- [Usando Effect Hook (Hook de Efeito)](https://pt-br.reactjs.org/docs/hooks-effect.html).
+* [Versão LTS do Node.JS](https://nodejs.org/pt-br/);
+* [Documentação do npm](https://docs.npmjs.com/);
+* [Documentação do React.JS](https://pt-br.reactjs.org/docs/getting-started.html);
+* [Documentação do Next.JS](https://nextjs.org/docs/getting-started);
+* [Documentação do Styled Components](https://styled-components.com/docs);
+* [Arquivo next.config.js dos exemplos de Styled Components](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/next.config.js), para utilizar React com Next;
+* [API do GitHub](https://api.github.com/users/tjas);
+* [Documentação do Supabase](https://supabase.com/docs);
+* [Supabase-JS](https://www.npmjs.com/package/@supabase/supabase-js);
+* [Usando Effect Hook (Hook de Efeito)](https://pt-br.reactjs.org/docs/hooks-effect.html).
 
 ## Outros links interessantes
 
-- [Figma](https://www.figma.com/);
-- [Visual Studio Code](https://code.visualstudio.com/), interface de desenvolvimento;
-- [Unsplash](https://unsplash.com/), para imagens grátis;
-- [Componentes do Material Design](https://m3.material.io/components);
-- [Conta da Vercel no GitHub](https://github.com/vercel);
-- [Exemplo oficial de utilização do Styled Components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components);
-- [Conta "Alura Challenges" da Alura no GitHub](https://github.com/alura-challenges), projetos legais para referência;
-- [Projeto "Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md);
-- [Projeto "Awesome Design Systems"](https://github.com/alexpate/awesome-design-systems), referência para vários design systems;
-- [Alura Verso](https://www.alura.com.br/aluraverso);
-- [TechGuide.sh](https://techguide.sh/), um guia para a carreira em tecnologia;
-- [Vitrine Dev](https://cursos.alura.com.br/vitrinedev);
-- [Babel](https://babeljs.io/), um compilador JavaScript;
-- [QUOKKA](https://quokkajs.com/), uma ferramenta de suporte para codificação em JavasCript;
-- [Supabase](https://supabase.com/).
+* [Figma](https://www.figma.com/);
+* [Visual Studio Code](https://code.visualstudio.com/), interface de desenvolvimento;
+* [Unsplash](https://unsplash.com/), para imagens grátis;
+* [Componentes do Material Design](https://m3.material.io/components);
+* [Conta da Vercel no GitHub](https://github.com/vercel);
+* [Exemplo oficial de utilização do Styled Components](https://github.com/vercel/next.js/tree/canary/examples/with-styled-components);
+* [Conta "Alura Challenges" da Alura no GitHub](https://github.com/alura-challenges), projetos legais para referência;
+* [Projeto "Flappy Bird: Dev Soutinho"](https://github.com/omariosouto/flappy-bird-devsoutinho/blob/master/CONTRIBUTING.md);
+* [Projeto "Awesome Design Systems"](https://github.com/alexpate/awesome-design-systems), referência para vários design systems;
+* [Alura Verso](https://www.alura.com.br/aluraverso);
+* [TechGuide.sh](https://techguide.sh/), um guia para a carreira em tecnologia;
+* [Vitrine Dev](https://cursos.alura.com.br/vitrinedev);
+* [Babel](https://babeljs.io/), um compilador JavaScript;
+* [QUOKKA](https://quokkajs.com/), uma ferramenta de suporte para codificação em JavasCript;
+* [Supabase](https://supabase.com/).
 
 ## Contato
 
@@ -135,7 +134,7 @@ git push origin my-new-feature
 
 ## Licença
 
-- Código distribuído sob a [Licença MIT](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE).
+* Código distribuído sob a [Licença MIT](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE).
 
 <!-- ## Agradecimentos
 
