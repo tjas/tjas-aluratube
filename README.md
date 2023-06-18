@@ -1,24 +1,29 @@
 # TJAS AluraTube
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](./README.md)
-[![Website](https://img.shields.io/website?down_color=brightred&down_message=offline&up_color=brightgreen&up_message=online&url=https%3A%2F%2Ftjas-aluratube.vercel.app%2F)](https://tjas-aluratube.vercel.app/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftjas%2Ftjas-aluratube&count_bg=%2379C83D&title_bg=%23555555&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=orange)](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE)
-[![Stars](https://img.shields.io/github/stars/tjas/tjas-aluratube?color=blue)](https://github.com/tjas/tjas-aluratube/stargazers)
-[![Watchers](https://img.shields.io/github/watchers/tjas/tjas-aluratube?color=blue)](https://github.com/tjas/tjas-aluratube/watchers)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg?label=Status)](./README.md)
+[![Website](https://img.shields.io/website?down_color=brightred&down_message=offline&up_color=brightgreen&up_message=online&url=https%3A%2F%2Ftjas-aluratube.vercel.app%2F&label=Website)](https://tjas-aluratube.vercel.app/)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftjas%2Ftjas-aluratube&count_bg=%2379C83D&title_bg=%23555555&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Licence](https://img.shields.io/github/license/tjas/tjas-aluratube?color=orange&label=Licence)](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE)
+[![Commits](https://img.shields.io/github/commit-activity/t/tjas/tjas-aluratube?label=Commits)](https://github.com/tjas/tjas-aluratube/graphs/commit-activity)
+![Last commit](https://img.shields.io/github/last-commit/tjas/tjas-aluratube?color=blue&label=Last%20commit)
+![Repo size](https://img.shields.io/github/repo-size/tjas/tjas-aluratube?color=888888&label=Repo%20size)
+![Code size](https://img.shields.io/github/languages/code-size/tjas/tjas-aluratube?color=888888&label=Code%20size)
+[![Stars](https://img.shields.io/github/stars/tjas/tjas-aluratube?color=blue&label=Stars)](https://github.com/tjas/tjas-aluratube/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/tjas/tjas-aluratube?color=blue&label=Watchers)](https://github.com/tjas/tjas-aluratube/watchers)
+[![Forks](https://img.shields.io/github/forks/tjas/tjas-aluratube?color=blue&label=Forks)](https://github.com/tjas/tjas-aluratube/forks)
 
 
-[![Node](https://img.shields.io/badge/node-v18.12.1-green)](https://nodejs.org/en/)
-[![Next](https://img.shields.io/badge/next-v13.0.2-yellow)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/react-v18.2.0-orange)](https://reactjs.org/)
+[![Node](https://img.shields.io/badge/Node-v18.12.1-green)](https://nodejs.org/en/)
+[![Next](https://img.shields.io/badge/Next-v13.0.2-yellow)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-v18.2.0-orange)](https://reactjs.org/)
 
 > ⭐ Mark the project with a star. 👀 Watch the project for receive news.
 >
 > ⚙️ [Access the demo and see the project working](https://tjas-aluratube.vercel.app/).
 >
-> 🌐 Access my personal website: [thiago-tjas.com](http://thiago-tjas.com/)
->
 > 🇧🇷 Acesse a versão em [Portuguese do Brasil](./README_pt-br.md) desta página.
+<!-- >
+> 🌐 Access my personal website: [thiago-tjas.com](http://thiago-tjas.com/) -->
 
 
 
@@ -126,14 +131,13 @@ git push origin my-new-feature
 
 ## Contact
 
-> **Thiago Jorge Almeida dos Santos**, project author and maintainer.
->
-> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
+**Thiago Jorge Almeida dos Santos**, project author and maintainer.
 
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logoColor=white&link=https://www.linkedin.com/in/thiago-tjas)](https://www.linkedin.com/in/thiago-tjas) [![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logoColor=white&link=https://www.youtube.com/@thiago_tjas)](https://www.youtube.com/@thiago_tjas) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logoColor=white&link=https://www.instagram.com/thiago.tjas/)](https://www.instagram.com/thiago.tjas/) [![Website](https://img.shields.io/badge/-Website-888888?style=flat-square&logoColor=white&link=http://thiago-tjas.com/)](http://thiago-tjas.com/) [![GitHub](https://img.shields.io/badge/-GitHub-555555?style=flat-square&logoColor=white&link=https://github.com/tjas)](https://github.com/tjas)
 
 ## Licence
 
-- Distributed under [MIT License](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE).
+- Code distributed under [MIT License](https://github.com/tjas/tjas-aluratube/blob/master/LICENCE).
 
 <!-- ## Acknowledgements
 
